@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57C3CCC78989442946040481ADC0E7A1167A46C0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7001309CF070193AC8A6446146F99FD657062F51" : 0,
+    "57C3CCC78989442946040481ADC0E7A1167A46C0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "24DCBAB7-3127-46BD-8FB7-825BE1B54851",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7001309CF070193AC8A6446146F99FD657062F51" : "adgeneration-sdk\/",
+    "57C3CCC78989442946040481ADC0E7A1167A46C0" : "learning-adnetwork\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BannerNativeAdSample",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "adgeneration\/ios\/BannerNativeAdSample\/BannerNativeAdSample.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:khiraiwa\/learning-adnetwork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57C3CCC78989442946040481ADC0E7A1167A46C0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:AdGeneration\/sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7001309CF070193AC8A6446146F99FD657062F51"
+    }
+  ]
+}

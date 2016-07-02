@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1D97FF1D27D68F0089E4A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D97FE1D27D68F0089E4A1 /* main.m */; };
+		4F1D98021D27D68F0089E4A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D98011D27D68F0089E4A1 /* AppDelegate.m */; };
+		4F1D98081D27D68F0089E4A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D98061D27D68F0089E4A1 /* Main.storyboard */; };
+		4F1D980A1D27D68F0089E4A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1D98091D27D68F0089E4A1 /* Assets.xcassets */; };
+		4F1D98181D27D68F0089E4A1 /* BannerNativeAdSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D98171D27D68F0089E4A1 /* BannerNativeAdSampleTests.m */; };
+		4F1D98231D27D68F0089E4A1 /* BannerNativeAdSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1D98221D27D68F0089E4A1 /* BannerNativeAdSampleUITests.m */; };
+		4F1D98331D27D8560089E4A1 /* ADG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1D98321D27D8560089E4A1 /* ADG.framework */; };
+		4F9723821D27D9A20013F046 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9723811D27D9A20013F046 /* SystemConfiguration.framework */; };
+		4F9723841D27D9AA0013F046 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9723831D27D9AA0013F046 /* CoreTelephony.framework */; };
+		4F9723861D27D9B20013F046 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9723851D27D9B20013F046 /* MediaPlayer.framework */; };
+		4F9723881D27D9BA0013F046 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9723871D27D9BA0013F046 /* Security.framework */; };
+		4F97238A1D27D9C20013F046 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F9723891D27D9C20013F046 /* QuartzCore.framework */; };
+		4F97238C1D27D9C90013F046 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F97238B1D27D9C90013F046 /* AdSupport.framework */; };
+		4F97238E1D27D9CF0013F046 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F97238D1D27D9CF0013F046 /* CoreGraphics.framework */; };
+		4F9723911D27DB010013F046 /* AdGeneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F9723901D27DB010013F046 /* AdGeneViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F1D98141D27D68F0089E4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1D97F21D27D68F0089E4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1D97F91D27D68F0089E4A1;
+			remoteInfo = BannerNativeAdSample;
+		};
+		4F1D981F1D27D68F0089E4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F1D97F21D27D68F0089E4A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1D97F91D27D68F0089E4A1;
+			remoteInfo = BannerNativeAdSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F1D97FA1D27D68F0089E4A1 /* BannerNativeAdSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BannerNativeAdSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1D97FE1D27D68F0089E4A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4F1D98001D27D68F0089E4A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4F1D98011D27D68F0089E4A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4F1D98071D27D68F0089E4A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F1D98091D27D68F0089E4A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1D980E1D27D68F0089E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1D98131D27D68F0089E4A1 /* BannerNativeAdSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerNativeAdSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1D98171D27D68F0089E4A1 /* BannerNativeAdSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerNativeAdSampleTests.m; sourceTree = "<group>"; };
+		4F1D98191D27D68F0089E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1D981E1D27D68F0089E4A1 /* BannerNativeAdSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BannerNativeAdSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1D98221D27D68F0089E4A1 /* BannerNativeAdSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerNativeAdSampleUITests.m; sourceTree = "<group>"; };
+		4F1D98241D27D68F0089E4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1D98321D27D8560089E4A1 /* ADG.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADG.framework; path = BannerNativeAdSample/ADG.framework; sourceTree = "<group>"; };
+		4F9723811D27D9A20013F046 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4F9723831D27D9AA0013F046 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4F9723851D27D9B20013F046 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4F9723871D27D9BA0013F046 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4F9723891D27D9C20013F046 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4F97238B1D27D9C90013F046 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4F97238D1D27D9CF0013F046 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4F97238F1D27DB010013F046 /* AdGeneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGeneViewController.h; sourceTree = "<group>"; };
+		4F9723901D27DB010013F046 /* AdGeneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdGeneViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F1D97F71D27D68F0089E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F97238E1D27D9CF0013F046 /* CoreGraphics.framework in Frameworks */,
+				4F97238C1D27D9C90013F046 /* AdSupport.framework in Frameworks */,
+				4F97238A1D27D9C20013F046 /* QuartzCore.framework in Frameworks */,
+				4F9723881D27D9BA0013F046 /* Security.framework in Frameworks */,
+				4F9723861D27D9B20013F046 /* MediaPlayer.framework in Frameworks */,
+				4F9723841D27D9AA0013F046 /* CoreTelephony.framework in Frameworks */,
+				4F9723821D27D9A20013F046 /* SystemConfiguration.framework in Frameworks */,
+				4F1D98331D27D8560089E4A1 /* ADG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D98101D27D68F0089E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D981B1D27D68F0089E4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F1D97F11D27D68F0089E4A1 = {
+			isa = PBXGroup;
+			children = (
+				4F97238D1D27D9CF0013F046 /* CoreGraphics.framework */,
+				4F97238B1D27D9C90013F046 /* AdSupport.framework */,
+				4F9723891D27D9C20013F046 /* QuartzCore.framework */,
+				4F9723871D27D9BA0013F046 /* Security.framework */,
+				4F9723851D27D9B20013F046 /* MediaPlayer.framework */,
+				4F9723831D27D9AA0013F046 /* CoreTelephony.framework */,
+				4F9723811D27D9A20013F046 /* SystemConfiguration.framework */,
+				4F1D98321D27D8560089E4A1 /* ADG.framework */,
+				4F1D97FC1D27D68F0089E4A1 /* BannerNativeAdSample */,
+				4F1D98161D27D68F0089E4A1 /* BannerNativeAdSampleTests */,
+				4F1D98211D27D68F0089E4A1 /* BannerNativeAdSampleUITests */,
+				4F1D97FB1D27D68F0089E4A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F1D97FB1D27D68F0089E4A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D97FA1D27D68F0089E4A1 /* BannerNativeAdSample.app */,
+				4F1D98131D27D68F0089E4A1 /* BannerNativeAdSampleTests.xctest */,
+				4F1D981E1D27D68F0089E4A1 /* BannerNativeAdSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F1D97FC1D27D68F0089E4A1 /* BannerNativeAdSample */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D98001D27D68F0089E4A1 /* AppDelegate.h */,
+				4F1D98011D27D68F0089E4A1 /* AppDelegate.m */,
+				4F1D98061D27D68F0089E4A1 /* Main.storyboard */,
+				4F1D98091D27D68F0089E4A1 /* Assets.xcassets */,
+				4F1D980E1D27D68F0089E4A1 /* Info.plist */,
+				4F1D97FD1D27D68F0089E4A1 /* Supporting Files */,
+				4F97238F1D27DB010013F046 /* AdGeneViewController.h */,
+				4F9723901D27DB010013F046 /* AdGeneViewController.m */,
+			);
+			path = BannerNativeAdSample;
+			sourceTree = "<group>";
+		};
+		4F1D97FD1D27D68F0089E4A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D97FE1D27D68F0089E4A1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F1D98161D27D68F0089E4A1 /* BannerNativeAdSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D98171D27D68F0089E4A1 /* BannerNativeAdSampleTests.m */,
+				4F1D98191D27D68F0089E4A1 /* Info.plist */,
+			);
+			path = BannerNativeAdSampleTests;
+			sourceTree = "<group>";
+		};
+		4F1D98211D27D68F0089E4A1 /* BannerNativeAdSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F1D98221D27D68F0089E4A1 /* BannerNativeAdSampleUITests.m */,
+				4F1D98241D27D68F0089E4A1 /* Info.plist */,
+			);
+			path = BannerNativeAdSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F1D97F91D27D68F0089E4A1 /* BannerNativeAdSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1D98271D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSample" */;
+			buildPhases = (
+				4F1D97F61D27D68F0089E4A1 /* Sources */,
+				4F1D97F71D27D68F0089E4A1 /* Frameworks */,
+				4F1D97F81D27D68F0089E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BannerNativeAdSample;
+			productName = BannerNativeAdSample;
+			productReference = 4F1D97FA1D27D68F0089E4A1 /* BannerNativeAdSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1D98121D27D68F0089E4A1 /* BannerNativeAdSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1D982A1D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSampleTests" */;
+			buildPhases = (
+				4F1D980F1D27D68F0089E4A1 /* Sources */,
+				4F1D98101D27D68F0089E4A1 /* Frameworks */,
+				4F1D98111D27D68F0089E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1D98151D27D68F0089E4A1 /* PBXTargetDependency */,
+			);
+			name = BannerNativeAdSampleTests;
+			productName = BannerNativeAdSampleTests;
+			productReference = 4F1D98131D27D68F0089E4A1 /* BannerNativeAdSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F1D981D1D27D68F0089E4A1 /* BannerNativeAdSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1D982D1D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSampleUITests" */;
+			buildPhases = (
+				4F1D981A1D27D68F0089E4A1 /* Sources */,
+				4F1D981B1D27D68F0089E4A1 /* Frameworks */,
+				4F1D981C1D27D68F0089E4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1D98201D27D68F0089E4A1 /* PBXTargetDependency */,
+			);
+			name = BannerNativeAdSampleUITests;
+			productName = BannerNativeAdSampleUITests;
+			productReference = 4F1D981E1D27D68F0089E4A1 /* BannerNativeAdSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F1D97F21D27D68F0089E4A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hiraiwa, Kenichiro";
+				TargetAttributes = {
+					4F1D97F91D27D68F0089E4A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8ESA4Y3V26;
+					};
+					4F1D98121D27D68F0089E4A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8ESA4Y3V26;
+						TestTargetID = 4F1D97F91D27D68F0089E4A1;
+					};
+					4F1D981D1D27D68F0089E4A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8ESA4Y3V26;
+						TestTargetID = 4F1D97F91D27D68F0089E4A1;
+					};
+				};
+			};
+			buildConfigurationList = 4F1D97F51D27D68F0089E4A1 /* Build configuration list for PBXProject "BannerNativeAdSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F1D97F11D27D68F0089E4A1;
+			productRefGroup = 4F1D97FB1D27D68F0089E4A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F1D97F91D27D68F0089E4A1 /* BannerNativeAdSample */,
+				4F1D98121D27D68F0089E4A1 /* BannerNativeAdSampleTests */,
+				4F1D981D1D27D68F0089E4A1 /* BannerNativeAdSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F1D97F81D27D68F0089E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1D980A1D27D68F0089E4A1 /* Assets.xcassets in Resources */,
+				4F1D98081D27D68F0089E4A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D98111D27D68F0089E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D981C1D27D68F0089E4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F1D97F61D27D68F0089E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F9723911D27DB010013F046 /* AdGeneViewController.m in Sources */,
+				4F1D98021D27D68F0089E4A1 /* AppDelegate.m in Sources */,
+				4F1D97FF1D27D68F0089E4A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D980F1D27D68F0089E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1D98181D27D68F0089E4A1 /* BannerNativeAdSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1D981A1D27D68F0089E4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1D98231D27D68F0089E4A1 /* BannerNativeAdSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F1D98151D27D68F0089E4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1D97F91D27D68F0089E4A1 /* BannerNativeAdSample */;
+			targetProxy = 4F1D98141D27D68F0089E4A1 /* PBXContainerItemProxy */;
+		};
+		4F1D98201D27D68F0089E4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1D97F91D27D68F0089E4A1 /* BannerNativeAdSample */;
+			targetProxy = 4F1D981F1D27D68F0089E4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F1D98061D27D68F0089E4A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1D98071D27D68F0089E4A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F1D98251D27D68F0089E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1D98261D27D68F0089E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F1D98281D27D68F0089E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BannerNativeAdSample",
+				);
+				INFOPLIST_FILE = BannerNativeAdSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4F1D98291D27D68F0089E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BannerNativeAdSample",
+				);
+				INFOPLIST_FILE = BannerNativeAdSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4F1D982B1D27D68F0089E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BannerNativeAdSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerNativeAdSample.app/BannerNativeAdSample";
+			};
+			name = Debug;
+		};
+		4F1D982C1D27D68F0089E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BannerNativeAdSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BannerNativeAdSample.app/BannerNativeAdSample";
+			};
+			name = Release;
+		};
+		4F1D982E1D27D68F0089E4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BannerNativeAdSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BannerNativeAdSample;
+			};
+			name = Debug;
+		};
+		4F1D982F1D27D68F0089E4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BannerNativeAdSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgene.sample.BannerNativeAdSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BannerNativeAdSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F1D97F51D27D68F0089E4A1 /* Build configuration list for PBXProject "BannerNativeAdSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1D98251D27D68F0089E4A1 /* Debug */,
+				4F1D98261D27D68F0089E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1D98271D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1D98281D27D68F0089E4A1 /* Debug */,
+				4F1D98291D27D68F0089E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1D982A1D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1D982B1D27D68F0089E4A1 /* Debug */,
+				4F1D982C1D27D68F0089E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1D982D1D27D68F0089E4A1 /* Build configuration list for PBXNativeTarget "BannerNativeAdSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1D982E1D27D68F0089E4A1 /* Debug */,
+				4F1D982F1D27D68F0089E4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F1D97F21D27D68F0089E4A1 /* Project object */;
+}
